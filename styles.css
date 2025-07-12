@@ -431,7 +431,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/bgimg.jpg);
+        background-image: url(images/backgroundimage2.JPG);
     }
     .header-text{
         margin-top: 100%;
@@ -444,8 +444,11 @@ nav .fa-solid{
         display: block;
         font-size: 25px;
     }
+    .aboutme{
+        color: white;
+    }
     nav ul{
-        background: #ff004f;
+        background: #262626;
         position: fixed;
         top: 0;
         right: -200px;
