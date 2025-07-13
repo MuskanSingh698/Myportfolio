@@ -15,7 +15,7 @@ body{
 }
 #sidemenu{
     position: fixed;
-    right: 1%;
+    right: 5%;
    
 }
 
@@ -429,24 +429,29 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 707px){
     #header{
-        background-image: url(images/backgroundimage2.JPG);
+        background-image: none;
+        background-color: #080808;
     }
     .header-text{
-        margin-top: 100%;
+
         font-size: 16px;
+       
+        color: white;
+    }
+    .header-text p{
+        color: white;
     }
     .header-text h1{
         font-size: 30px;
+        color: white;
     }
     nav .fa-solid{
         display: block;
         font-size: 25px;
     }
-    .aboutme{
-        color: white;
-    }
+    
     nav ul{
         background: #262626;
         position: fixed;
@@ -486,5 +491,8 @@ nav .fa-solid{
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
+    }
+    #sidemenu{
+        right: -250%;
     }
 }
