@@ -445,7 +445,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     #sidemenu{
-        right:none;
+        right: -250%;
     }
     .aboutme{
         color: white;
